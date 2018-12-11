@@ -13,6 +13,6 @@ public class Follow2Axes : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position = new Vector3(controller.transform.position.x, controller.transform.position.y, 1.2f);
+		transform.position = new Vector3(controller.transform.position.x, controller.transform.position.y, 1.0f);
 	}
 }
